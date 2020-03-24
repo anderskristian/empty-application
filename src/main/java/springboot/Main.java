@@ -42,9 +42,7 @@ public class Main {
 
             String line;
             while ((line = reader.readLine()) != null) {
-                if(!line.startsWith("[INFO]") || line.contains("Finished at")){
-                    output.append(line).append("\n");
-                }
+                output.append(line).append("\n");
             }
 
             int exitVal = process.waitFor();
@@ -61,7 +59,5 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
-
 }
