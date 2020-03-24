@@ -8,11 +8,11 @@ The objective is to clarify that NO dependencies are added event that a big evil
 mvn clean package
 
 # Linux / Macos / git Bash
-java -cp target/my-empty-application-0.0.1-SNAPSHOT.jar springboot.Main
+java -cp target/empty-application-0.0.1-SNAPSHOT.jar springboot.Main
 
 
 # Windows
-java -cp target\my-empty-application-0.0.1-SNAPSHOT.jar springboot.Main
+java -cp target\empty-application-0.0.1-SNAPSHOT.jar springboot.Main
 
 ```
 
@@ -25,12 +25,12 @@ starting query maven
 calling maven completed
 [INFO] Scanning for projects...
 [INFO] 
-[INFO] --------------------< dk.bank:my-empty-application >--------------------
-[INFO] Building my-empty-application 0.0.1-SNAPSHOT
+[INFO] --------------------< dk.bank:empty-application >--------------------
+[INFO] Building empty-application 0.0.1-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ my-empty-application ---
-[INFO] dk.bank:my-empty-application:jar:0.0.1-SNAPSHOT
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ empty-application ---
+[INFO] dk.bank:empty-application:jar:0.0.1-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -52,12 +52,12 @@ starting query maven
 calling maven completed
 [INFO] Scanning for projects...
 [INFO] 
-[INFO] --------------------< dk.bank:my-empty-application >--------------------
-[INFO] Building my-empty-application 0.0.1-SNAPSHOT
+[INFO] --------------------< dk.bank:empty-application >--------------------
+[INFO] Building empty-application 0.0.1-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ my-empty-application ---
-[INFO] dk.bank:my-empty-application:jar:0.0.1-SNAPSHOT
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ empty-application ---
+[INFO] dk.bank:empty-application:jar:0.0.1-SNAPSHOT
 [INFO] +- junit:junit:jar:4.12:test
 [INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
 [INFO] \- org.springframework.boot:spring-boot-starter-web:jar:2.0.3.RELEASE:compile
